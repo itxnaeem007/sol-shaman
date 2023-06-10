@@ -1,0 +1,64 @@
+.header-wrapper{
+    z-index: 99;
+    position: fixed;
+}
+.header{
+    width: 75%;
+}
+.border-blue{
+    border-top: 3px solid #2ea3f2;
+}
+.logo{
+    width: 234px;
+    height: 43px;
+}
+.h-btn{
+    color: #f9e79f !important;
+    font-size: 14px;
+}
+.color-gold{
+    color: #f9e79f ;
+}
+.search-icon{
+    transform: scaleX(-1)
+}
+.menu-color{
+    color:#2EA3F2;
+}
+.text-32{
+    font-size: 32px;
+}
+.text-28{
+    font-size: 18px;
+}
+.w-100vw{
+    width: 90vw;
+    margin: auto;
+}
+@media (max-width: 992px){
+ .logo{
+     width: 200px;
+     height: 38px;
+ }  
+ .header-wrapper{
+     position: absolute;
+ } 
+ .header{
+     width: 100%;
+ }
+ .text-28{
+    font-size: 28px;
+}
+}
+@media (max-width: 576px){
+    .text-28{
+       font-size: 22px;
+    }
+    .logo{
+        width: 150px;
+        height: 30px;
+    } 
+    .text-32{
+        font-size: 24px;
+    }
+}

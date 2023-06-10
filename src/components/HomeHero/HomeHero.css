@@ -1,0 +1,96 @@
+.bg-image{
+    background-image: url('../../assets/Ellipse.png');
+    padding: 3% 0 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 25%;
+}
+.connect-box{
+    z-index: 22;
+}
+.blured{
+    /* object-fit: contain; */
+    z-index: 0;
+}
+.height-30{
+    height: 400px;
+}
+.width-50{
+    width: 40%;
+}
+.border-gold{
+    border: 2px solid gold;
+}
+.radius-36{
+    border-radius: 36px;
+}
+.shadow-l{
+  box-shadow: 0 3rem 3rem #ffbb0f31!important
+}
+.text-gold{
+    color: #FFCA0F;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.rounded-13{
+    border-radius: 13px;
+}
+
+.text-20{
+    font-size: 20px;
+}
+.text-34
+{
+    font-size: 24px;
+    padding: 10%;
+}
+.text-24
+{
+    font-size: 20px;
+}
+.btn-outline-warning {
+    color: #ffc107 !important;
+    border: 2px solid #ffc107 !important;
+    border-radius: 14px !important;
+}
+.w-fitContent{
+    width: fit-content;
+}
+.w-200{
+    width: 250px;
+}
+.dropdown-toggle::after{
+    float: right;
+    margin-top: 10px;
+}
+.line{
+    border-top:1px solid rgba(255, 243, 179, 0.28);
+    color: #947509;
+    font-size: 20px;
+    margin-top: auto;
+}
+.color-text{
+    color: #947509;
+    font-size: 14px;
+}
+@media (max-width: 992px){
+    .text-gold{
+        font-size: 14px;
+    }
+    .text-20{
+        font-size: 16px;
+    }
+    .text-34{
+        font-size: 16px;
+        white-space: nowrap;
+        line-height: 0;
+    }
+    .text-24{
+        font-size: 18px;
+    }
+    .w-200{
+        width: 200px;
+    }
+}
